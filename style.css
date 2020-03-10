@@ -1,18 +1,16 @@
 body {
-    display: flex;
-    justify-content: center;
-    margin: 0;
     padding: 0;
-    max-width: 100vh;
+    /* max-width: 100vh; */
     max-height: 100vh;
 }
 
 #container {
-    margin-left: 35%;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
-    margin-top: 23%;
+    margin-top: 11%;
     margin-left: 43%;
 }
 
@@ -31,24 +29,26 @@ h1 {
 .btn1 {
     display: inline-block;
     margin-top: 5%;
-    margin-left: -43.5%;
+    margin-left: -47%;
     margin-right: 1%;
+    width: 130px;
     height: 40px;
     background-color: rgba(228, 227, 227, 0.541);
     color: rgb(94, 93, 93);
     font-family: Verdana;
     border: 1px solid #fff;
-    border-radius: 12%;
+    border-radius: 10%;
 }
 
 .btn2 {
     display: inline-block;
+    width: 150px;
     height: 40px;
     background-color: rgba(228, 227, 227, 0.541);
     color: rgb(94, 93, 93);
     font-family: Verdana;
     border: 1px solid #fff;
-    border-radius: 12%;
+    border-radius: 10%;
 }
 
 .languages {
